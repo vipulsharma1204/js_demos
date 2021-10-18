@@ -1,3 +1,25 @@
+
+var count = 0;
+var data = [
+    {
+        'Name' : 'Apple',
+        'Price' : 50
+    },
+    {
+        'Name' : 'Water',
+        'Price' : 20
+    },
+    {
+        'Name' : 'Nokia 3310',
+        'Price' : 2020
+    }
+]
+var find = function(){
+    var ret =  data[count].Name + ' is worth ' + data[count].Price;
+    document.getElementById("result").innerHTML = ret;
+    count++;
+}
+
 var def = function(){    
     setTimeout(() => {
         console.log('Anubhav');
