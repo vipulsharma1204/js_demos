@@ -2,15 +2,15 @@
 var count = 0;
 var data = [
     {
-        'Name' : 'Apple',
+        'Name' : 'Vipul',
         'Price' : 50
     },
     {
-        'Name' : 'Water',
+        'Name' : 'Atul',
         'Price' : 20
     },
     {
-        'Name' : 'Nokia 3310',
+        'Name' : 'Sharma',
         'Price' : 2020
     }
 ]
