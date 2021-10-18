@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p id="mynum">0</p>
+        <button onclick="inc()">Inc</button>
+        <button onclick="dec()">Dec</button>
+        <button onclick="def()">Greet</button>
+        <table border="5px">
+            <th>
+                <td>Name</td><td>Price</td><td>Inc/Dec</td><td>Quantity</td><td>Amount</td>
+            </th>
+            <tr>
+                <td>1</td><td>Apple</td><td id="price_app">50</td><td><button onclick="inc_app()">+</button><button onclick="dec_app()">-</button></td><td id="quan_app">0</td><td id="amount_app">0</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
